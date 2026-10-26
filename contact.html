@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Fabro's Midterm Portfolio</h1>
+    </header>
+    
+    <hr class="header-divider">
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="media.html">Media</a>
+        <a href="contact.html" class="active">Contact</a>
+    </nav>
+
+    <div class="card">
+        <img src="unnamed.jpg" alt="Fabro's Portfolio Portrait">
+        <h1>Contact Details</h1>
+        <form action="#" method="POST">
+            <p>Contact Form</p>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="subject">Inquiry Topic*</label>
+            <select id="subject" name="subject" required>
+                <option value="">Select a topic</option>
+                <option value="web_design">Web Design</option>
+                <option value="ui_ux">UI/UX Evaluation</option>
+                <option value="other">Other</option>`   
+            </select>    
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+
+    <hr class="footer-divider">
+
+    <footer>
+        <p>&copy; 2026 Developed by Fabro | HUMAN COMPUTER INTERACTION</p>
+    </footer>
+    
+</body>
+</html>
